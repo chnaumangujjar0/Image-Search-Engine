@@ -1,0 +1,79 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background:rgb(103, 28, 103) ;
+    }
+    .main{
+        width:100% ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 130px;
+    }
+    h1{
+        padding: 10px;
+        color: rgb(164, 198, 44);
+        font-size: 3rem;
+    }
+    .searchbar{
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+    }
+    .searchbar input{
+      width: 350px;
+      padding: 20px;
+      padding-left: 25px;
+      font-size: larger;
+      border: none;
+      outline: none;
+      border-radius: 30px 0 0px 30px;
+      background-color: rgba(255, 255, 255, 0.167);
+      color: #fff;
+    }
+     .searchbar input::placeholder{
+        color: white;
+     }
+    .searchbar button{
+        border: none;
+        background-color:  rgb(237, 154, 19);
+        font-size: larger;
+        padding: 0px 15px;
+        border-radius: 0 30px 30px 0;
+        color:#fff;
+    }
+    .images{
+        width: 100%;
+        /* max-width: fit-content; */
+        padding: 10px 50px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns:450px 450px 450px ;
+        grid-template-rows: 300px;
+        gap: 30px;
+    }
+    .images img{
+        margin-top: 10px;
+        height: 300px;
+        width: 450px;
+        background-size: auto;
+    }
+    .btn{
+      display: flex;
+      justify-content: center;
+    }
+    .showmore{
+       
+        padding: 10px 20px;
+        border: none;
+        background-color:  rgb(237, 154, 19);
+        font-size: x-large;
+        color: #fff;
+        border-radius: 30px;
+        margin: 100px 0;
+        display: none;
+    }
