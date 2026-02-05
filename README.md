@@ -1,8 +1,29 @@
 # Image-Search-Engine
 
-<video src="/Image-Search-Engine/image-search-engine.mp4" controls loop >
+This project is a simple image search engine built using HTML, CSS, and JavaScript.
+It allows users to search for images by entering a keyword and fetches relevant images using the Unsplash Images API.
 
+<h1>🚀 Features</h1>
 
-This is a beginner-friendly image search project built using HTML, CSS, and JavaScript with the Unsplash API. Users can type a keyword to search for images and click the Show More button to load additional images.
+Search images using keywords
 
-The app handles common edge cases such as preventing empty searches and clearing old images when a new keyword is searched, so results do not get mixed. Pagination is reset on every new search to keep the results accurate and easy to understand.
+Display high-quality images from Unsplash
+
+Load more images using a Show More button (pagination)
+
+Clear previous results when a new search is performed
+
+Prevent empty searches to avoid invalid API requests
+
+Smooth and beginner-friendly user experience
+
+<h1>🛠️ Technologies Used</h1>
+
+HTML
+
+CSS
+
+JavaScript (DOM manipulation, Fetch API, event handling)
+
+Unsplash Images API
+
