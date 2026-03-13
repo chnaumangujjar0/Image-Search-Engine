@@ -2,7 +2,8 @@
 
 This project is a simple image search engine built using HTML, CSS, and JavaScript.
 It allows users to search for images by entering a keyword and fetches relevant images using the Unsplash Images API.
-
+## Live Demo
+[Click here for live Demo](https://chnaumangujjar0.github.io/Image-Search-Engine/)
 <h1>🚀 Features</h1>
 
 Search images using keywords
