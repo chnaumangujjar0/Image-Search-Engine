@@ -4,7 +4,7 @@ let showMore=document.querySelector(".btn button")
 let imageContainer=document.querySelector(".images")
 let images=document.querySelectorAll(".images img")
 //===I hide the api key for privacy.So,if you want to run this code then  you can use your own unsplash api====
-let apiKey=""
+let apiKey="nK-bo19I-0pCyR9aptW83-B5nsAHh3BIq4XbPnzx1mg"
 let keyWord=""
 let page=1;
 
